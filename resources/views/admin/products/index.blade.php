@@ -2,14 +2,22 @@
 
 @section ('content')
 
-<section>
-  <header>
-    <h1>Bienvenidos a HiMarket</h1>
-    <h3>Un lugar donde comprar y vender es tan facil como un remate.</h3>
-    <div class="comenzar">
-      <label for=""><a href="products/create">¡Sube tus productos!</a></label>
-    </div>
-  </header>
+<div class="primertitular">
+  <p><h1>Tu misión: Comprar y Vender</h1></p>
+</div>
+<br>
+<br>
+<br>
+<section class="vende">
+  <p><h3>¡Vendé!</h3></p>
+</section>
+
+<section class="compra">
+  <p><h3>¡Comprá!</h3></p>
+</section>
+
+<section class="sientase">
+  <p><h3>¡Sientase seguro!</h3></p>
 </section>
 
 @stop

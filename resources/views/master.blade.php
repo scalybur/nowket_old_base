@@ -8,40 +8,27 @@
 
         <title>Hi Market - Vendé, comprá, colaborá.</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
-
-
-        <style media="screen">
-        body{
-          font-family: 'Hind', sans-serif;
-          color: rgb(208, 125, 200);
-          background-color: rgb(68, 216, 236);
-        }
-          .comenzar{
-            width: 300px;
-            height: 150px;
-            background-color: rgba(147, 165, 221, 0.46);
-            align-content: center;
-          }
-          .cargar{
-            margin: auto;
-            padding: 10px;
-            background-color: rgba(213, 233, 170, 0.74);
-            color: #2a8dd4;
-            height: auto;
-            width: 500px;
-            float: left;
-          }
-          .subirboton{
-            border-radius: 5px;
-            background-color: #d9dcf6;
-            border-color: #cd44b6;
-          }
-        </style>
+        <!--CSS-->
+        <link rel="stylesheet" href="/css/style1.css">
 
     </head>
     <body>
+      <header class="cabeza">
+        <img src="" alt="" class="logo">
+        <div class="enlaces">
+          <a href="#">Acerca</a>
+          <br>
+          <a href="#">Ayuda</a>
+          <a href="#">Contacto</a>
+          <a href="#">Registrar</a>
+        </div>
+        <div class="social">
+          <a href="#"><img src="" alt="Facebook"></a>
+          <a href="#"><img src="" alt="Twitter"></a>
+          <a href="#"><img src="" alt="Youtube"></a>
+
+        </div>
+      </header>
       @yield('content')
     </body>
 </html>
